@@ -18,7 +18,8 @@ LIB_DEPENDS=	libgexiv2.so:graphics/gexiv2 \
 		libportal.so:deskutils/libportal \
 		libportal-gtk3.so:deskutils/libportal-gtk3 \
 		libtotem.so:multimedia/totem \
-		libtracker-sparql-3.0.so:sysutils/tracker3
+		libtracker-sparql-3.0.so:sysutils/tracker3 \
+		libcloudproviders.so:www/libcloudproviders
 
 PORTSCOUT=	limitw:1,even
 
